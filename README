@@ -1,1 +1,5 @@
 compute thornthwaite PET index for Mangona, Italy
+
+The command to execute all of this--on MY computer--is as follows:
+
+    sudo docker build -t cshields143/pet . && sudo docker run cshields143/pet && sudo docker cp $(sudo docker -alq):/bilancino_pet.csv /home/chris/pet/pet.csv
